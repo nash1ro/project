@@ -1,0 +1,940 @@
+//main page 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRbookshelf</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="img/logopng.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&display=swap" rel="stylesheet">
+<body>
+    <div class="main">
+        <header>
+            <div class="head">
+                <img src="img/logos.png" alt="" class="logo">
+
+                <img src="img/other.png" alt="" class="other">
+                
+                <img src="img/avatar_png.gif" alt="" class="ava">
+                
+                <div class="black_line"></div>
+                <div class="black_line2"></div>
+            </div>
+            <div class="buttons">
+                <a class="home" href="">
+                    <p> home </p>
+                </a>
+                <p class="library">library </p>
+                <a class="prof" href="myprofile.html">
+                    <p class="profile">profile</p>
+                </a>
+            </div>
+            <div class="search">
+                <div class="search_field">
+                    <img class="glass" src="img/glass.png" alt="">
+                    <p class="searchword">Search...</p>
+                    <input class="inp"> </input>
+
+                </div>
+            </div>
+                <div class="slider">
+                    <div class="adaptivSlayder">
+
+                        <input type="radio" name="kadoves" id="slaid1" checked>
+                        <input type="radio" name="kadoves" id="slaid2">
+                        <input type="radio" name="kadoves" id="slaid3">
+                        
+                        <div class="kadoves">
+                    
+                        <label for="slaid1"></label>
+                        <label for="slaid2"></label>
+                        <label for="slaid3"></label>
+                    
+                        </div>
+                    
+                        <div class="adaptivSlayderlasekun">      
+                        <div class="abusteku-deagulus">             
+                        <img src="img/books1.png"/> </img>                  
+                        <img src="img/books2.png"/> </img>
+                        <img src="img/books3.png"/> </img>
+                    
+                        </div>
+                    
+                        </div>
+                    
+                    </div>
+                </div>
+        </header>
+        <div class="main_part">
+            <p class="rec">recommended</p>
+            <div class="books_1">
+                <img class="png1_1" src="img/1.1.png" alt="">
+                <img class="png1_2" src="img/1.2.png" alt="">
+                <img class="png1_3" src="img/1.3.png" alt="">
+            </div>
+            <div class="text_1">
+                <p class="txt1">Amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor.</p>
+                <p class="txt2">Amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor.</p>
+                <p class="txt3">Amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor.</p>  
+            </div>
+            <p class="like">liked</p>
+            <div class="books_2">
+                <img src="img/2.1.png" alt="">
+                <img src="img/2.2.png" alt="">
+                <img src="img/2.3.png" alt="">
+            </div>
+            <div class="text_2">
+                <p class="txt1_1">Amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor.</p>
+                <p class="txt1_2">Amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor.</p>
+                <p class="txt1_3">Amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor.</p>  
+            </div>
+            <p class="top">top ranked</p>
+            <div class="books_3">
+                <img src="img/3.1.png" alt="">
+                <img src="img/3.2.png" alt="">
+                <img src="img/3.3.png" alt="">
+            </div>
+                <p class="txt2_1">Amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor.</p>
+                <p class="txt2_2">Amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor.</p>
+                <p class="txt2_3">Amet, consectetur adipiscing elit, 
+                    sed do eiusmod tempor.</p>  
+        </div>
+        <div class="footer">
+          <div class="foot">
+            <img class="one" src="img/con.png" alt="">
+            <img class="two" src="img/sn.png" alt="">
+            <img class="three" src="img/print.png" alt="">
+          </div>
+        </div>
+        <div class="panel">
+            <div class="panel_head"></div>
+            <p class="comm">comments</p>
+            <img src="img/2books.png" alt="" class="twobooks">
+            <img src="img/comments.png" alt="" class="xower">
+            <img src="img/cosmolot.jpeg" alt="" class="cosmolot">
+            <img src="img/add2.gif" alt="" class="addtwo">
+            <img src="img/menu_bottom.png" alt="" class="prem">
+            
+        </div>
+    </div>
+</body>
+</html>
+
+//2nd page 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>VRbook</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" href="img/logopng.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main_2">
+        <div class="head_2">
+            <img src="img/logos.png" alt="" class="logo_2">
+            <img src="img/other.png" alt="" class="other_2">
+            <div class="black_line_two"></div>
+            <div class="black_line_two2"></div>
+            <img src="img/avatar_png.gif" alt="" class="ava_2">
+        </div> 
+        <div class="buttons_2">
+            <a class="homepage" href="index.html">
+                <p> main </p>
+            </a>
+            <a>
+            <p class="mylibrary">my library </p>
+            <p class="friends">friends</p>
+            <p class="out">log out</p>
+        </div>
+        <div class="boddy">
+            <img src="img/yeatpng.png" alt="" class="yeat">
+            <p class="favtext">favorite books</p>
+            <img src="img/favbooks.png" alt="" class="favbook">
+        </div> 
+        <div class="footertwo">
+            <img src="img/footermyprofile.png" alt="" class="fooot">
+        </div>  
+        <div class="menutwo">
+            <img src="img/editttttt.png" alt="" class="edito">
+        </div>
+    </div>
+</body>
+</html>
+
+//css
+
+* {
+    padding: 0;
+}
+
+body {
+  background-image: url(../img/bg.jpg);
+}
+
+/*header*/
+
+.main {
+    width: 1920px;
+    height: 3000px;
+    margin: 0 auto;
+    background-color: #FFE9E9;
+}
+
+.head {
+    width: 1920px;
+    height: 150px;
+    background-color: #333333;
+}
+
+.logo {
+    height: 230px;
+    width: 200px;
+    position: relative;
+    bottom: 35px;
+}
+
+.black_line {
+    height: 147px;
+    width: 110px;
+    z-index: 1;
+    position: relative;
+    bottom: 232px;
+    left: 370px;
+    border: solid black 0.5px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.buttons {
+  position: relative;
+  left: 38px;
+}
+
+.black_line2 {
+    height: 147px;
+    width: 110px;
+    z-index: 1;
+    position: relative;
+    bottom: 380px;
+    left: 990px;
+    border: solid black 0.5px;
+    border-top: none;
+    border-bottom: none;
+}
+
+.other {
+    height: 100px;
+    width: 430px;
+    position: relative;
+    left: 315px;
+    bottom: 98px;
+}
+
+.home {
+    font-size: 30px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    bottom: 100px;
+    left: 1150px;
+    position: relative;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.library {
+    font-size: 30px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    bottom: 167px;
+    left: 1350px;
+    position: relative;
+    transition: 1s;
+}
+
+.profile {
+    font-size: 30px;
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    bottom: 234px;
+    left: 1570px;
+    position: relative;
+    transition: 1s;
+}
+
+.ava {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 100px;
+    left: 1160px;
+}
+
+.home:hover {
+    color: #CF8B26;
+    transition: 1s;
+    
+}
+
+.library:hover {
+    color: #CF8B26;
+    transition: 1s;
+    
+}
+
+.profile:hover {
+    color: #CF8B26;
+    transition: 1s;
+    
+}
+
+.search {
+    width: 1920px;
+    height: 120px;
+    background-color: #CE7E7E;
+    opacity: 50%;
+    position: relative;
+    bottom: 200px;
+}
+
+.search_field {
+    background-color: white;
+    height: 50px;
+    width: 1200px;
+    z-index: 1;
+    position: relative;
+    top: 30%;
+    left: 360px;
+    border-radius: 15px;
+}
+
+.glass {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    right: 50px;
+}
+
+.inp {
+    color: black;
+    font-size: 10px;
+    text-decoration: none;
+    height: 30px;
+    width: 600px;
+    position: relative;
+    bottom: 109px;
+    left: 100px;
+    border: none;
+}
+
+.searchword {
+    color: black;
+    font-size: 20px;
+    position: relative;
+    bottom: 60px;
+    left: 20px;
+}
+
+.adaptivSlayder {
+
+    position: relative;
+    max-width: 710px;
+    margin: 65px auto;
+  
+  
+  }
+  
+   
+  
+  .adaptivSlayder input[name="kadoves"] {
+    display: none;
+  
+  }
+  
+   
+  
+  .kadoves {
+  
+    position: absolute;
+    left: 0;
+    bottom: -35px;
+    text-align: center;
+    width: 100%;
+  
+  }
+  
+   
+  
+  .kadoves label {
+  
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    cursor: pointer;
+    margin: 0 2px;
+  
+
+  
+    border-radius: 55%;
+    border: 4px solid #2f363c;
+    background-color: #738290;
+  
+  }
+  
+  #slaid1:checked~.kadoves label[for="slaid1"] {
+    background-color: white;
+  
+  }
+  
+  #slaid2:checked~.kadoves label[for="slaid2"] {
+    background-color: white;
+  
+  }
+  
+  #slaid3:checked~.kadoves label[for="slaid3"] {
+    background-color: white;
+  
+  }
+  
+   
+  
+  .adaptivSlayderlasekun {
+    overflow: hidden;
+   
+  }
+  
+   
+  
+  .abusteku-deagulus {
+    display: flex;
+    width: 100%;
+    transition: all 0.6s;
+  
+  }
+  
+   
+  
+  .abusteku-deagulus img {
+    width: 100%;
+    flex-shrink:0;
+  
+  }
+  
+   
+  
+  #slaid1:checked~adaptivSlayderlasekun abusteku-deagulus {
+    transform: translate(0);
+  
+  }
+  
+  
+  #slaid2:checked~.adaptivSlayderlasekun .abusteku-deagulus {
+    transform: translateX(-100%);
+  
+  }
+  
+   
+  #slaid3:checked~.adaptivSlayderlasekun .abusteku-deagulus {
+    transform: translateX(-200%);
+  
+}
+  
+.slider {
+    position: relative;
+    margin: 0 auto;
+    bottom: 170px;
+}
+
+.slider {
+    margin: 0 auto;
+}
+
+.adaptivSlayderlasekun {
+    width: 1500px;
+    height: 440px;
+    position: relative;
+    right: 390px;
+}
+
+/*main part*/
+
+.rec {
+  font-size: 40px;
+  font-family: 'Russo One', sans-serif;
+  margin-left: 215px;
+  bottom: 90px;
+  position: relative;
+}
+
+.books_1 {
+  height: 100px;
+  width: 50px;
+  position: relative;
+  display: inline;
+  letter-spacing: 147px;
+  margin-left: 215px;
+  bottom: 90px;
+}
+
+
+.txt1 {
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: black;
+  margin-left: 208px;
+  width: 300px;
+  position: relative;
+  bottom: 100px;
+}
+
+.txt2 {
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: black;
+  position: relative;
+  width: 300px;
+  margin-left: 613px;
+  bottom: 155px;
+}
+
+.txt3 {
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: black;
+  position: relative;
+  width: 300px;
+  margin-left: 1017px;
+  bottom: 209px;
+}
+
+.books_2 {
+  height: 100px;
+  width: 50px;
+  position: relative;
+  display: inline;
+  letter-spacing: 147px;
+  margin-left: 215px;
+  bottom: 180px; 
+}
+
+.like {
+  position: relative;
+  bottom: 180px;
+  font-size: 40px;
+  font-family: 'Russo One', sans-serif;
+  margin-left: 215px;
+}
+
+.txt1_1 {
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: black;
+  margin-left: 208px;
+  width: 300px;
+  position: relative;
+  bottom: 190px;
+}
+
+.txt1_2 {
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: black;
+  position: relative;
+  width: 300px;
+  margin-left: 613px;
+  bottom: 245px;
+}
+
+.txt1_3 {
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: black;
+  position: relative;
+  width: 300px;
+  margin-left: 1017px;
+  bottom: 299px;
+}
+
+.top {
+  font-size: 40px;
+  font-family: 'Russo One', sans-serif;
+  margin-left: 215px;
+  bottom: 270px;
+  position: relative;
+}
+
+.books_3 {
+  height: 100px;
+  width: 50px;
+  position: relative;
+  display: inline;
+  letter-spacing: 147px;
+  margin-left: 215px;
+  bottom: 267px; 
+}
+
+.txt2_1 {
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: black;
+  margin-left: 208px;
+  width: 300px;
+  position: relative;
+  bottom: 274px;
+}
+
+.txt2_2 {
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: black;
+  position: relative;
+  width: 300px;
+  margin-left: 613px;
+  bottom: 329px;
+}
+
+.txt2_3 {
+  font-size: 16px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  color: black;
+  position: relative;
+  width: 300px;
+  margin-left: 1017px;
+  bottom: 383px;
+}
+
+.txt1_1:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.txt1_2:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.txt1_3:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.txt1:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.txt2:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.txt3:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.txt2_1:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.txt2_2:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.txt2_3:hover {
+  color: orange;
+  transition: 1s;
+}
+
+.text_3 {
+  height: 200px;
+}
+
+.foot {
+  height: 200px;
+  width: 1920px;
+  background-color: black;
+  opacity: 50%;
+  position: relative;
+  top: 1030px;
+  letter-spacing: 50px;
+}
+
+.main_part {
+  height: 700px;
+}
+
+.one {
+  position: relative;
+  height: 200px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.two {
+  position: relative;
+  height: 190px;
+  width: 550px;
+  bottom: 7px;
+  left: 60px;
+}
+
+.three {
+  position: relative;
+  height: 200px;
+  width: 550px;
+  left: 190px;
+}
+
+.panel {
+  height: 1642px;
+  width: 500px;
+  background-color: #E7B4B4;
+  position: relative;
+  left: 1420px;
+  bottom: 972px;
+}
+
+.panel_head {
+  width: 500px;
+  height: 114px;
+  background-color: black;
+  opacity: 50%;
+  position: relative;
+  top: 54px;
+}
+
+.comm {
+  font-size: 30px;
+  font-family: 'Russo One', sans-serif;
+  color: white;
+  z-index: 0;
+  position: relative;
+  margin: 0 auto;
+  left: 167px;
+  bottom: 20px;
+}
+
+.xower {
+  position: relative;
+  height: 264px;
+  width: 686px;
+  top: 105px;
+}
+
+.twobooks {
+  position: relative;
+  height: 280px;
+  width: 450px;
+  left: 25px;
+  top: 54px;
+}
+
+.cosmolot {
+  height: 370px;
+  width: 500px;
+  position: relative;
+  top: 170px;
+}
+
+.addtwo {
+  height: 170px;
+  width: 500px;
+  position: relative;
+  top: 190px;
+}
+
+.prem {
+  position: relative;
+  width: 500px;
+  top: 293px;
+}
+
+/*my_profile*/
+
+.main_2 {
+  width: 1920px;
+  height: 1000px;
+  background-color: #FFE9E9;
+  margin: 0 auto;
+}
+
+.head_2 {
+  width: 1920px;
+   height: 150px;
+  background-color: #333333;
+} 
+
+.logo_2 {
+  height: 230px;
+  width: 200px;
+  position: relative;
+  bottom: 40px;
+}
+
+.black_line_two {
+  height: 147px;
+  width: 110px;
+  z-index: 1;
+  position: relative;
+  bottom: 233px;
+  left: 250px;
+  border: solid black 0.5px;
+  border-top: none;
+  border-bottom: none;
+}
+
+.black_line_two2 {
+  height: 147px;
+  width: 110px;
+  z-index: 1;
+  position: relative;
+  bottom: 380px;
+  left: 1570px;
+  border: solid black 0.5px;
+  border-top: none;
+  border-bottom: none;
+}
+
+.ava_2 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  bottom: 500px;
+  left: 1750px;
+}
+
+.homepage {
+  font-size: 30px;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  bottom: 100px;
+  left: 550px;
+  position: relative;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.homepage:hover {
+  color: #BC8027;
+}
+
+.mylibrary {
+  font-size: 30px;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  bottom: 167px;
+  left: 670px;
+  position: relative;
+  transition: 1s;
+}
+
+.friends {
+  font-size: 30px;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  bottom: 234px;
+  left: 870px;
+  position: relative;
+  transition: 1s;
+}
+
+.out {
+  font-size: 30px;
+  color: white;
+  font-family: 'Russo One', sans-serif;
+  bottom: 300px;
+  left: 1018px;
+  position: relative;
+  transition: 1s;
+}
+
+.buttons_2 {
+  position: relative;
+  right: 120px;
+}
+
+.other_2 {
+  height: 80px;
+  width: 380px;
+  position: relative;
+  left: 935px;
+  bottom: 98px;
+}
+
+.yeat {
+  position: relative;
+  bottom: 260px;
+}
+
+.fooot {
+  top: 324px;
+  position: relative;
+}
+
+.favbook {
+  position: relative;
+  height: 300px;
+  width: 700px;
+  bottom: 250px;
+  margin-left: 100px;
+}
+
+.favtext {
+  font-size: 30px;
+  color: black;
+  font-family: 'Russo One', sans-serif;
+  position: relative;
+  bottom: 250px;
+  margin-left: 100px;
+}
+
+.boddy {
+  height: 100px;
+}
+
+.mylibrary:hover {
+  color: #BC8027;
+}
+
+.friends:hover {
+  color: #BC8027;
+}
+
+.out:hover {
+  color: #BC8027;
+}
+
+.edito {
+  position: relative;
+  bottom: 302px;
+  margin-left: 1087px;
+  height: 490px;
+}
+
+.prof {
+  text-decoration: none;
+}
